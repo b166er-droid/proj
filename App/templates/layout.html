@@ -9,27 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
-    
-    <link rel="stylesheet"
-    href="https://drive.google.com/uc?export=view&id=1mgg1Gw-qpFJE66yKSDaRBI21JTsAR-q7"
-    type="text/css" >
-
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
- 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
- 
-    <meta charset="utf-8">
-
-    <meta 
-    name="viewport" 
-    content="width=device-width">
-    
     <title>{% block title %}{% endblock %}</title>
+    
+    <link 
+    href="style.css" 
+    rel="stylesheet" 
+    type="text/css" />
 
   </head>
   <body>
@@ -46,22 +31,17 @@
       </div>
     </nav>
     
-    
     {% with messages = get_flashed_messages() %}
     {% if messages %}
-    
     <nav class="white black-text" style="padding: 10px">
       <div class="nav-wrapper">
           <ul class="flashes">
-            
           {% for message in messages %}
             <li>{{ message }}</li>
           {% endfor %}
-            
           </ul>
       </div>
     </nav>
-    
     {% endif %}
     {% endwith %}
 
