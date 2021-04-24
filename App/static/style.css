@@ -53,8 +53,8 @@ p {
 
 /* The Images */
 .gallery-img {
-  max-width: 100%;
-  height: auto;
+  height:268px;
+  width:162px;
   object-fit: cover;
   transition: opacity 0.25s ease-in-out;
   
