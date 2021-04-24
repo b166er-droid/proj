@@ -7,41 +7,198 @@
 {% block content %}
     <h1>Flask MVC</h1>
     <p>This is a boileplate flask application which follows the MVC pattern for structuring the project.</p>
-  <body>
+<body>
 
-  {% block content %}
   <div class="scrolling-wrapper">
-
   <div class="card"><h2>
 
-    {% for movie in movieSlider %}
     <img class="gallery-img" 
-      src="{{movie.poster}}"
-      onerror="this.src='//i.imgur.com/DykmKYk.jpg';this.onerror='';"
+      src="https://picsum.photos/230/300?random=1.jpg" 
       alt="symbol image" 
-      title="{{movie.title}}">
-    {% endfor %}
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=2.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=3.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=4.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=5.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=1.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=2.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=1.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=2.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=3.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=4.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=5.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=1.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+    
+
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=2.jpg" 
+      alt="symbol image" 
+      title="symbol image">
     
     </h2></div>
 
-  </div>
+</div>
+
 
   <div class="gallery-grid">
 
-    {% for movie in movieList %}
     <figure class="gallery-frame">
       <img class="gallery-img" 
-      src="{{movie.poster}}" 
-      onerror="this.src='//i.imgur.com/DykmKYk.jpg';this.onerror='';"
+      src="https://picsum.photos/230/300?random=1.jpg" 
       alt="symbol image" 
-      title="{{movie.title}}">
-      <figcaption>{{movie.title}}</figcaption>
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
     </figure>
-    {% endfor %}
 
-  </div><!-- end:gallery-grid -->
-  {% endblock %}
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=2.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=3.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=4.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=5.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=6.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=7.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=8.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=9.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=10.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=11.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+    <figure class="gallery-frame">
+      <img class="gallery-img" 
+      src="https://picsum.photos/230/300?random=12.jpg" 
+      alt="symbol image" 
+      title="symbol image">
+      <figcaption>Image Title</figcaption>
+    </figure>
+
+  </div>
 
   </body>
 
-<!-- {% endblock %} -->
+{% endblock %}
