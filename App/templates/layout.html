@@ -21,6 +21,7 @@
     <nav class="purple">
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo center">{% block page %}{% endblock %}</a>
+
         <div class="nav-wrapper">
             <ul id="nav-mobile" class="left">
                 <li><a href="/">Home</a></li>
@@ -28,6 +29,7 @@
                 <li><a href="/static/users">Users JS</a></li>
             </ul>
         </div>
+        
       </div>
     </nav>
     
@@ -35,11 +37,13 @@
     {% if messages %}
     <nav class="white black-text" style="padding: 10px">
       <div class="nav-wrapper">
+
           <ul class="flashes">
           {% for message in messages %}
             <li>{{ message }}</li>
           {% endfor %}
           </ul>
+
       </div>
     </nav>
     {% endif %}
